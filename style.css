@@ -1,0 +1,167 @@
+body{
+    /* background: linear-gradient(90deg, #3bf3f6 0%, rgb(252, 0, 255) 100%); */
+
+    background-image: linear-gradient(rgb(5, 5, 5), rgb(9, 9, 9), rgb(142, 142, 144));
+    
+    /* overflow-x: hidden !important; */
+}
+
+header, ul,li{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(169, 169, 164);
+    gap: 3px;
+    
+    
+}
+
+ul,li{
+    margin-left:3px;
+    font-size: medium;
+
+}
+button{
+        padding: 2px;
+        margin-right:2px;
+        border: 1px solid rgb(13, 13, 13);
+        border-radius: 7px;
+        font-size: medium;
+        /* font-weight:bold; */
+}
+
+li:hover{
+    background-color: rgb(241, 239, 74);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    height: 250px;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* color: rgb(130, 233, 207); */
+    color: rgb(131, 237, 237);
+
+}
+.boxx{
+    border: 2px solid rgb(215, 234, 11);
+    border-radius: 8px;
+    /* padding: 10px;
+     */
+    margin: 0px 50px;
+    font-size:xx-large;
+    
+}
+
+.about{
+    height: 400px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+}
+.about-me{
+    color: white;
+    border: 2px solid rgb(237, 237, 51);
+    border-radius: 9px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 50px;
+    padding:2px;
+    font-size: medium;
+    /* flex-wrap: wrap; */
+
+
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.imgs{
+    border-radius: 100px;
+    border: 2px solid rgb(238, 238, 28);
+
+}
+.my-bio{
+    height: 300px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bio{
+    color: aliceblue;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+em{
+    color: rgb(201, 228, 47);
+}
+
+
+.container{
+    /* margin: 30px 25px; */
+    margin: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box2{
+    border: 2px solid rgb(180, 8, 128);
+    
+    border-radius: 9px;
+    
+    padding: 2px;
+    background-color: rgb(75, 232, 75);
+    color: black;
+    
+}
+
+.ak{
+    text-align: center;
+    height: 150px;
+    /* padding: 2px; */
+    /* margin: 0px 0px; */
+    background-color: rgb(152, 151, 150);
+}
+
+.hover:hover{
+    background-color: rgb(216, 230, 14);
+}
+
